@@ -193,6 +193,39 @@ line-height: 2.5;
 
 /*contact section*/
 
+.form{
+    box-shadow: 1px 1px 10px rgb(43, 40, 40),
+     -1px -1px 10px rgb(43, 40, 40);
+    width: 40%;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form div{
+    padding: 5px;
+    margin-top: 10px;
+}
+
+input, textarea{
+    width: 90%;
+}
+
+textarea{
+    height: 150px;
+}
+
+.btn button{
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+    height: 25px;
+    border: transparent;
+    background-color: rgb(177, 177, 177);
+}
+
 /*media queries*/
 @media only screen and (min-width: 768px){
     nav{
