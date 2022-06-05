@@ -326,6 +326,7 @@ footer ul li a{
 
   .flex{
       flex-direction: row;
+      flex-wrap: wrap;
       justify-content: space-evenly;
   }
 }
